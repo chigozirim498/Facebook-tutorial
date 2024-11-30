@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.contents {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f4f7;
+    justify-content: center;
+}
+
+.page-title {
+    /* border: 1px solid; */
+    width: 40%;
+}
+
+.page-form {
+    /* border: 1px solid; */
+    margin-left: 20px;
+    width: 35%;
+}
+
+
+.logo {
+    font-size: 300%;
+    color: #0866ff;
+}
+/* 
+.page-form {
+
+} */
+
+.form-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: -2px 2px 2px 2px #d9d9d9;
+}
+
+.form-input, .form-button {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-input {
+   border: 1px solid #ccc
+}
+
+.form-button {
+    background-color: #0866ff;
+    color: #ffffff;
+    border: none;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.link-container {
+    text-align: center;
+}
+
+.link-container > a {
+    text-decoration: none;
+    color: #0866ff;
+}
+
+.separator {
+    border: .3px solid #ccc;
+    margin: 10px 0;
+}
+
+.create-account-container {
+    text-align: center;
+}
+
+.create-account-btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #42b72a;
+    color: #ffffff
+}
+
+.create-page-container {
+    text-align: center;
+    width: 100%;
+    font-size: 80%;
+    margin: 20px 0;
+}
+
+.create-page-container > b > a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.language-links > li {
+    display: inline;
+    color: #999999;
+    margin-left: 5px;
+}
+
+.language-links > li > a{
+    text-decoration: none;
+    color: #999999;
+}
+
+footer{
+    padding: 10px 130px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+
+
